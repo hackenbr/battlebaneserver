@@ -38,5 +38,5 @@ and will reboot once a request is received. This takes time, usually around 20 s
 20 second downtime is unacceptable for someone wanting to play, so thus this keepawake function is ran.*/
 const http = require("http");
 setInterval(function() {
-    http.get("http://battle-bane.herokuapp.com");
+    http.get("http://websocketservercbe.herokuapp.com");
 }, 300000); // every 5 minutes (300000)
